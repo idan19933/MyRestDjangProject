@@ -1,0 +1,42 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+
+
+
+<h2>Worker's detail</h2>
+
+
+<div class="card" style="width: 18rem;">
+ <div class="myclass">
+  <img class="card-img-top" src="{{worker.image.url}}" alt="Card image cap">
+</div>
+  <div class="card-body">
+    <p class="card-text">
+        <div class="myclass">
+        {{worker.name}}
+{{worker.last_name}}
+<br>
+Phone number:<br>{{worker.phone_number}}
+<br>
+
+Hire date:<br>{{worker.hire_date}}
+        <br>
+Email adress:<br>{{worker.email}}
+
+           <br>
+Job adress:<br>{{worker.job_id}}
+        <br>
+Salary:<br>{{worker.salary}}
+        <br>
+Manager id:<br>{{worker.manager}}
+</div>
+</p>
+  </div>
+
+</div>
+
+
+
+
+ {% endblock %}

@@ -1,0 +1,3 @@
+name:Sharon 
+work days:12307
+salary:24000

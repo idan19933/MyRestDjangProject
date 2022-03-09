@@ -1,0 +1,29 @@
+{% extends 'layout.html' %}
+{% block content %}
+
+
+
+
+
+
+
+
+<h1 style="color:#04040B" >Our workers</h1>
+{% for worker in workers %}
+
+
+<div class="imageColumn">
+    <p>
+{{worker.name}}
+{{worker.last_name}}
+
+
+<h1><a href="{% url 'workers:detail' slug=worker.slug %}"><img class="rounded" src="{{worker.image.url}}" height="400px" width="350px"></a></h1>
+</p>
+</div>
+
+
+
+
+{% endfor %}
+{% endblock %}

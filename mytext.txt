@@ -1,0 +1,25 @@
+name:Sharon
+work days:12308
+salary:24000
+
+
+name:Avi
+work days:16392
+salary:30000
+
+
+name:Oren
+work days:9826
+salary:28000
+
+
+name:Yakov
+work days:18090
+salary:18000
+
+
+name:Moshe
+work days:8997
+salary:25000
+
+
